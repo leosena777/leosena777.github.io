@@ -132,6 +132,12 @@ img::-moz-selection {
   background-color: transparent;
 }
 
+#mainNav .navbar-nav > li.nav-item a.nav-ico {
+  font-size: 20px;
+  padding: 5px !important;
+  font-weight: normal;
+}
+
 @media (min-width: 992px) {
   #mainNav {
     border-color: transparent;
