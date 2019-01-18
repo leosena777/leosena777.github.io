@@ -1,0 +1,51 @@
+// Styling for the masthead
+header.masthead {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 56px);
+  background-image: url('../img/header.jpg');
+  background-position: center center;
+  @include background-cover;
+  hr {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-color:#fff;
+  }
+  h1 {
+    font-size: 2rem;
+    text-shadow: 3px 4px 1px #333;
+  }
+  p {
+    font-weight: 500;
+    font-size: 18px !important;
+    text-shadow: 1px 1px 1px #333;
+  }  
+  .avatar{
+    margin-bottom: 15px;
+  }
+  .avatar img{
+    width:100%;
+    width: 100%;
+    border-radius: 360px;
+    padding: 3px;
+    background: #ffff;
+  }
+  @media (min-width: 768px) {
+    p {
+      font-size: 1.15rem;
+    }
+  }
+  @media (min-width: 992px) {
+    height: 100vh;
+    min-height: 650px;
+    padding-top: 0;
+    padding-bottom: 0;
+    h1 {
+      font-size: 3rem;
+    }
+  }
+  @media (min-width: 1200px) {
+    h1 {
+      font-size: 4rem;
+    }
+  }
+}
